@@ -1,0 +1,16 @@
+@import 'custom-theme.scss';
+@import '~taro-ui/dist/style/index.scss';
+@import 'const.scss';
+
+page{
+  background-color: $page-color-bg;
+  font-family: $font-family;
+  height: 100%;
+}
+
+.at-float-layout__container{
+  height: 780px;
+}
+.at-tabs__header::-webkit-scrollbar {
+  width: 0 !important
+}
