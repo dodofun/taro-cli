@@ -2,6 +2,12 @@
 @import '~taro-ui/dist/style/index.scss';
 @import 'const.scss';
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 page{
   background-color: $page-color-bg;
   font-family: $font-family;
